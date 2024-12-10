@@ -9,7 +9,7 @@ body {
 .heroContent {
     background-image: url(pictures/pexels-markusspiske-2004161.jpg);
     background-position: center; /* Center the image */
-   
+    background-repeat: repeat;
     background-size: 120%;
     padding: 150px;
     display: flex;
