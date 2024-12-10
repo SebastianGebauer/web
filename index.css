@@ -14,10 +14,15 @@ body {
     padding: 150px;
     display: flex;
      align-items: center;
-
+     width: 80%;
      justify-content: center;
 }
 
+.heroContent img {
+    max-width:150%; /* Adjust the image size */
+    height: auto;
+    padding-right: 30px;
+}
 
 
 .heroContent h1{
@@ -37,7 +42,7 @@ h1 {
     align-items: center; /* Align vertically */
     background-color: #ffffff; /* Header background color */
     padding: 20px;
-    color: white;
+    
 }
 
 /* Left and Middle section styling */
@@ -82,4 +87,5 @@ h1 {
     background-color: rgba(173, 173, 173, 0.856);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    
 }
