@@ -3,10 +3,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
+}
+
+.heroContent {
     background-image: url(pictures/pexels-markusspiske-2004161.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-size: 120%;
+    padding: 150px;
+
+}
+
+
+
+.heroContent h1{
+    color: white;
 }
 
 h1 {
@@ -62,7 +74,7 @@ h1 {
 
 /* Content section styling */
 .mainContent {
-    margin: 20px;
+    margin-bottom: 10px;
     padding: 20px;
     background-color: rgba(173, 173, 173, 0.663);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
