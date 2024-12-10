@@ -1,0 +1,70 @@
+/* General Reset and Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(pictures/pexels-markusspiske-2004161.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: 120%;
+}
+
+h1 {
+    color: #000000;
+
+    margin: 10px 0;
+}
+
+/* Header styling */
+.headerClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align vertically */
+    background-color: #ffffff; /* Header background color */
+    padding: 20px;
+    color: white;
+}
+
+/* Left and Middle section styling */
+.left {
+    flex: 1;
+}
+
+
+.middle {
+    flex: 2;
+    text-align: center;
+}
+
+/* Language selector styling */
+.language-selector {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.language-selector label {
+    margin-right: 10px;
+}
+
+.language-selector select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.language-selector select:focus {
+    border-color: #757e88;
+    outline: none;
+}
+
+/* Content section styling */
+.mainContent {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(173, 173, 173, 0.663);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
